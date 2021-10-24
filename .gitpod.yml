@@ -7,7 +7,7 @@ tasks:
       pipenv install --system
       ./manage.py migrate
     command: ./manage.py runserver 0.0.0.0:8000
-
+heroku login -i ileky.sas@gmail.com  628f515d-a0e6-4f9e-b47d-7c064b59deb1 git push heroku
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 8000
